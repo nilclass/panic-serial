@@ -1,0 +1,17 @@
+[package]
+name = "panic-serial"
+version = "0.1.0"
+edition = "2021"
+categories = ["no-std"]
+description = "Print panics on serial port"
+authors = ["Niklas Cathor"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ufmt = "0.2.0"
+
+[features]
+full = ["location", "message"]
+location = []
+message = []
