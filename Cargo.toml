@@ -1,6 +1,6 @@
 [package]
 name = "panic-serial"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 categories = ["no-std", "embedded"]
 keywords = ["panic", "serial", "arduino", "uart"]
